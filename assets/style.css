@@ -16,45 +16,44 @@ body {
     font-family: Arial, Helvetica, sans-serif;
 }
 
-nav {
-    background-color: var(--dark-black); 
+header {
+    background-color: var(--dark-black);
+    color: var(--middle-grey);
+    padding: 20px 35px;
+}
+
+#nav-bar {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    position: -webkit-sticky;
     position: sticky;
     top: 0;
-    height: 10vh;
-}
-
-nav h1 {
-    display: inline-block;
-    padding-top: 1rem;
-    padding-bottom: 1rem;
-    padding-left: 10px;
-    position: absolute;
-    top: -11px;
+    z-index: 9999;
     font-family: 'Bangers', cursive;
+    font-weight: bold;
+    font-size: 36px;
+    margin: 0;
 }
 
-nav a {
+header a {
     text-decoration: none;
     color: var(--middle-grey);
 }
 
-nav ul {
+header nav ul {
     display: flex;
     flex-wrap: wrap;
-    justify-content: flex-end;
+    justify-content: space-between;
     align-items: center;
     list-style: none;
 }
 
-nav ul a {
-    padding: 10px 10px;
+header nav ul li a {
+    padding: 10px 15px;
     font-weight: lighter;
-    font-size: 2vw;
-}
-
-header {
-    background-color: var(--dark-black);
-    color: var(--middle-grey);
+    font-size: 3vw;
+    text-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
 }
 
 .profile-center {
@@ -72,6 +71,3 @@ header {
     border: none;
 }
 
-header div h2 {
-    
-}
