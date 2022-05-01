@@ -18,7 +18,6 @@ body {
 
 nav {
     background-color: var(--dark-black); 
-    position: -webkit-sticky;
     position: sticky;
 }
 
