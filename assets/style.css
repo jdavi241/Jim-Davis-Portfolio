@@ -19,6 +19,8 @@ body {
 nav {
     background-color: var(--dark-black); 
     position: sticky;
+    top: 0;
+    height: 10vh;
 }
 
 nav h1 {
@@ -28,6 +30,7 @@ nav h1 {
     padding-left: 10px;
     position: absolute;
     top: -11px;
+    font-family: 'Bangers', cursive;
 }
 
 nav a {
